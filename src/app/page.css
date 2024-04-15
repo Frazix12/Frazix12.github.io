@@ -1,0 +1,273 @@
+:root {
+  --text-primary: #b6b6b6;
+  --text-secondary: #858585;
+  --bg-primary: #080808;
+  --bg-secondary: rgb(14, 16, 22);
+  --transition-speed: 600ms;
+  /* --primary: oklch(0.721502 0.144777 292.879132 / 1); */
+  --primary: #6f51f4;
+  --primary-shawdow: 0 0 12px var(--primary);
+  --border-radius: 4px;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  display: grid;
+  place-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 10px; /* Gap between grid items */
+  height: 100vh;
+  place-items: center;
+  .box {
+    margin: 5rem;
+  }
+  .left {
+    animation: drop-in 1s ease 200ms backwards;
+    .tittle {
+      font-size: 4rem;
+    }
+    .subTittle {
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 25px;
+      .name {
+        color: var(--primary);
+        font-weight: 800;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: -70px; /* Adjust the top value to position the image above the element */
+          left: 50%;
+          border-radius: var(--border-radius);
+          transform: translateX(-50%);
+          width: 60px; /* Set the desired width of the image */
+          height: 60px; /* Set the desired height of the image */
+          background-image: url("/hover/frazix.png"); /* Replace with the path to your image */
+          background-size: contain;
+          background-repeat: no-repeat;
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+          pointer-events: none; /* Allows the cursor to pass through the pseudo-element */
+          z-index: 100;
+        }
+        &:hover::before {
+          opacity: 1;
+        }
+      }
+
+      .dev {
+        color: #437cf3;
+        font-weight: 800;
+      }
+      .BD {
+        color: #52eea3;
+        font-weight: 800;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: -50px; /* Adjust the top value to position the image above the element */
+          left: 50%;
+          transform: translateX(-50%);
+          width: 60px; /* Set the desired width of the image */
+          height: 60px; /* Set the desired height of the image */
+          background-image: url("/hover/bd.png"); /* Replace with the path to your image */
+          background-size: contain;
+          background-repeat: no-repeat;
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+          pointer-events: none; /* Allows the cursor to pass through the pseudo-element */
+        }
+        &:hover::before {
+          opacity: 1;
+        }
+      }
+      .web {
+        color: #e06e4f;
+        font-weight: 800;
+      }
+      .prodeuct {
+        color: #4fcae0;
+        font-weight: 800;
+      }
+    }
+    .html {
+      /* color: hsl(13, 77%, 25%); */
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        top: -70px; /* Adjust the top value to position the image above the element */
+        left: 50%;
+        border-radius: var(--border-radius);
+        transform: translateX(-50%);
+        width: 60px; /* Set the desired width of the image */
+        height: 60px; /* Set the desired height of the image */
+        background-image: url("/hover/html5.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        pointer-events: none; /* Allows the cursor to pass through the pseudo-element */
+        /* z-index: 100; */
+      }
+      &:hover {
+        color: hsl(13, 97%, 56%);
+      }
+      &:hover::before {
+        opacity: 1;
+      }
+    }
+    .css {
+      /* color: hsl(205, 79%, 25%); */
+      position: relative;
+      &:hover {
+        color: hsl(205, 79%, 46%);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: -70px; /* Adjust the top value to position the image above the element */
+        left: 50%;
+        border-radius: var(--border-radius);
+        transform: translateX(-50%);
+        width: 60px; /* Set the desired width of the image */
+        height: 60px; /* Set the desired height of the image */
+        background-image: url("/hover/css3.svg"); /* Replace with the path to your image */
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        pointer-events: none; /* Allows the cursor to pass through the pseudo-element */
+        /* z-index: 100; */
+      }
+      &:hover::before {
+        opacity: 1;
+      }
+    }
+    .js {
+      /* color: hsl(53, 93%, 25%); */
+      position: relative;
+      &:hover {
+        color: hsl(53, 100%, 50%);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: -70px; /* Adjust the top value to position the image above the element */
+        left: 50%;
+        border-radius: var(--border-radius);
+        transform: translateX(-50%);
+        width: 60px; /* Set the desired width of the image */
+        height: 60px; /* Set the desired height of the image */
+        background-image: url("/hover/javascript.svg"); /* Replace with the path to your image */
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        pointer-events: none; /* Allows the cursor to pass through the pseudo-element */
+        /* z-index: 100; */
+      }
+      &:hover::before {
+        opacity: 1;
+      }
+    }
+
+    .skill {
+      img {
+        width: 20px;
+        height: 20px;
+        display: inline;
+      }
+    }
+  }
+  .right {
+    animation: drop-in 1200ms ease 500ms backwards;
+    .tittle {
+      /* font-size: 4rem; */
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+    .links {
+      .btn {
+        width: 5.5rem;
+        height: 2.5rem;
+        border: none;
+        border-radius: var(--border-radius);
+        background: var(--primary);
+        outline: none;
+        margin: 7px;
+        transition: all 0.2s ease-in-out;
+        a {
+          color: var(--text-primary);
+          filter: brightness(20);
+          text-decoration: none;
+        }
+        &:hover {
+          scale: 1.11;
+          cursor: pointer;
+          box-shadow: var(--primary-shawdow);
+        }
+      }
+    }
+    .stuffs {
+      .item {
+        margin: 15px 0 15px;
+        width: 100%;
+        height: 4.5rem;
+        /* border-radius: var(--border-radius); */
+        background: rgba(0, 0, 0, 0.2);
+        border: 2px solid var(--primary);
+        /* backdrop-filter: blur(10px); */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        transition: all 0.3s ease;
+        a {
+          color: var(--text-primary);
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+        }
+        &:hover {
+          scale: 1.11;
+          /* box-shadow: var(--primary-shawdow); */
+        }
+      }
+    }
+  }
+}
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@media (max-width: 768px) {
+  /* Media query for mobile screens */
+  .container {
+    grid-template-columns: 1fr; /* Single column */
+    .box {
+      margin: 3rem;
+    }
+  }
+  .BD::before {
+    transition: all 0.3s ease-in-out 2s;
+  }
+  .name::before {
+    transition: all 0.3s ease-in-out 2s;
+  }
+}

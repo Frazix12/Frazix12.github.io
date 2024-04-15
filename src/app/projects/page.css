@@ -1,0 +1,41 @@
+:root {
+  --text-primary: #b6b6b6;
+  --text-secondary: #858585;
+  --bg-primary: #080808;
+  --bg-secondary: rgb(14, 16, 22);
+  --transition-speed: 600ms;
+  /* --primary: oklch(0.721502 0.144777 292.879132 / 1); */
+  --primary: #6f51f4;
+  --primary-shawdow: 0 0 12px var(--primary);
+  --border-radius: 4px;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  display: grid;
+  place-items: center;
+}
+.hedding {
+  font-size: 4rem;
+  color: var(--text-primary);
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 10px; /* Gap between grid items */
+  height: 100vh;
+  place-items: center;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr; /* Single column */
+  }
+}
