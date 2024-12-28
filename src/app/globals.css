@@ -98,3 +98,29 @@ body {
 .delay-600 {
     animation-delay: 600ms;
 }
+
+/* Modern Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #0e1011;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    border: 2px solid #0e1011;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3a3a3a;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0e1011;
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #2a2a2a #0e1011;
+}
