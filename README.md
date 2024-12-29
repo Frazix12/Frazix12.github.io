@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Frazix Portfolio
 
-## Getting Started
+A modern, sleek portfolio website built with Next.js and Tailwind CSS, featuring a beautiful dark theme and interactive cards.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎨 Modern UI with glassmorphism effects
+- 🌓 Dark/Light theme switcher
+- 📱 Fully responsive design
+- 🎭 Smooth animations and transitions
+- 🃏 Interactive 3D cards
+- 🚀 Fast page loads with Next.js
+- 🧩 Component-based architecture
+- 🎯 Smooth scroll navigation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Built With
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js 14](https://nextjs.org/) - React Framework
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Shadcn/ui](https://ui.shadcn.com/) - UI Components
+- [Next Themes](https://github.com/pacocoursey/next-themes) - Theme Management
+- [Lucide Icons](https://lucide.dev/) - Beautiful Icons
+- [Vercel](https://vercel.com) - Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1. Clone the repository:
+   bash
+   git clone <https://github.com/yourusername/portfolio.git>
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   `npm install`
+   or
+   `bun install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the development server:
+   `npm run dev`
+   or
+   `bun run dev`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Open your browser and **navigate** to <http://localhost:3000> to see the app.
 
-## Deploy on Vercel
+## 📝 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `src/app/` - App routes and layouts
+- `src/components/` - React components
+- `src/lib/` - Utility functions
+- `src/styles/` - Global styles
+- `src/types/` - TypeScript types
+- `src/utils/` - Utility functions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Customization
+
+- Update `src/app/page.tsx` to modify the main content
+- Modify theme colors in `tailwind.config.ts`
+- Add new components in `src/components`
+- Place your images in `public/`
+
+## 📱 Contact
+
+- Instagram: [@irfan.nig](https://instagram.com/irfan.nig)
+- Email: [frazixgaming22@gmail.com](mailto:frazixgaming22@gmail.com)
+- Website: [frazix.vercel.app](https://frazix.vercel.app)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by Frazix
