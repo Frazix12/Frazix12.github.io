@@ -15,13 +15,11 @@ export default function GradientCards() {
                         <div
                             className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
                             style={{
-                                backgroundImage:
-                                    "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/instagram-nFPDv9916X8WQvTj0DKlr9lmVAb7Ja.png')",
+                                backgroundImage: "url('/instagram.png')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 filter: "blur(50px)",
                                 opacity: 0.4,
-                                // transform: "scale(0.9)",
                             }}
                         />
                         <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
@@ -30,7 +28,7 @@ export default function GradientCards() {
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
                                     style={{
                                         backgroundImage:
-                                            "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/instagram-nFPDv9916X8WQvTj0DKlr9lmVAb7Ja.png')",
+                                            "url('/instagram.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                     }}
@@ -73,13 +71,11 @@ export default function GradientCards() {
                         <div
                             className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
                             style={{
-                                backgroundImage:
-                                    "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/messenger-5CRpaH30fZzVfRnqhPo3JCFdoM7edA.png')",
+                                backgroundImage: "url('/messenger.png')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 filter: "blur(50px)",
                                 opacity: 0.4,
-                                // transform: "scale(0.9)",
                             }}
                         />
                         <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
@@ -88,7 +84,7 @@ export default function GradientCards() {
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
                                     style={{
                                         backgroundImage:
-                                            "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/messenger-5CRpaH30fZzVfRnqhPo3JCFdoM7edA.png')",
+                                            "url('/messenger.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                     }}
@@ -131,13 +127,11 @@ export default function GradientCards() {
                         <div
                             className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
                             style={{
-                                backgroundImage:
-                                    "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/google-dgVbqyJ16amnq6OLKSbUMW4u9go8ev.png')",
+                                backgroundImage: "url('/google.png')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 filter: "blur(50px)",
                                 opacity: 0.4,
-                                // transform: "scale(0.9)",
                             }}
                         />
                         <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
@@ -145,8 +139,7 @@ export default function GradientCards() {
                                 <div
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
                                     style={{
-                                        backgroundImage:
-                                            "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/google-dgVbqyJ16amnq6OLKSbUMW4u9go8ev.png')",
+                                        backgroundImage: "url('/google.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                     }}
@@ -203,13 +196,11 @@ export default function GradientCards() {
                         <div
                             className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
                             style={{
-                                backgroundImage:
-                                    "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/custom-j3sGNs3R2jqPD4QjFsffHOsRKwKgVZ.png')",
+                                backgroundImage: "url('/custom.png')",
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 filter: "blur(50px)",
                                 opacity: 0.4,
-                                // transform: "scale(0.9)",
                             }}
                         />
                         <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
@@ -217,8 +208,7 @@ export default function GradientCards() {
                                 <div
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
                                     style={{
-                                        backgroundImage:
-                                            "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/custom-j3sGNs3R2jqPD4QjFsffHOsRKwKgVZ.png')",
+                                        backgroundImage: "url('/custom.png')",
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                     }}

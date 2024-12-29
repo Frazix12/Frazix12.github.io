@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import {
     Geist,
     Geist_Mono,
@@ -33,6 +34,9 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "FRAZIX",
     description: "Frazix's portfolio",
+    icons: {
+        icon: "/favicon.ico",
+    },
 };
 
 export default function RootLayout({
@@ -53,6 +57,7 @@ export default function RootLayout({
                     disableTransitionOnChange
                 >
                     {children}
+                    <SpeedInsights />
                 </ThemeProvider>
             </body>
         </html>
