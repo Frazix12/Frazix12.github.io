@@ -3,10 +3,7 @@ import Link from "next/link";
 
 export default function GradientCards() {
     return (
-        <div
-            className="p-8 min-h-screen flex items-center"
-            style={{ backgroundColor: "#0e1011" }}
-        >
+        <div className="p-8 min-h-screen flex items-center">
             <div className="w-full max-w-[580px] mx-auto grid md:grid-cols-2 gap-6 justify-items-center">
                 {/* Instagram Card */}
                 <Link

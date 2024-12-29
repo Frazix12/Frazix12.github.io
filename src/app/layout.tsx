@@ -7,6 +7,7 @@ import {
     JetBrains_Mono,
 } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -45,7 +46,14 @@ export default function RootLayout({
                 className={`${jakartaSans.variable} ${geistSans.variable} ${geistMono.variable} antialiased ${inter.className} ${jetbrainsMono.className}`}
                 suppressHydrationWarning
             >
-                {children}
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="dark"
+                    enableSystem={false}
+                    disableTransitionOnChange
+                >
+                    {children}
+                </ThemeProvider>
             </body>
         </html>
     );

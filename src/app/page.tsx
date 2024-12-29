@@ -6,30 +6,39 @@ export default function Home() {
         <>
             <Navbar />
             <section
-                className="flex flex-col md:flex-row items-center justify-center min-h-screen text-white px-4 md:px-0 pt-16 md:pt-20"
-                style={{ backgroundColor: "#0e1011" }}
+                id="home"
+                className="flex flex-col md:flex-row items-center justify-center min-h-screen text-primary px-4 md:px-0 pt-16 md:pt-20 bg-background"
             >
                 <div className="flex flex-col items-center justify-center w-full md:w-1/2 md:py-0">
                     <div className="justify-center items-center w-full md:w-3/4 space-y-4 md:space-y-6">
                         <h1 className="text-4xl md:text-7xl font-bold pb-4 md:pb-7 jetbrainsMono text-center md:text-left fade-in">
-                            Frazix
+                            Irfan
                         </h1>
                         <h3 className="text-gray-400 jetbrainsMono text-sm md:text-base text-center md:text-left fade-in delay-200">
                             ( Developer / Designer / Gamer)
                         </h3>
                         <p className="jetbrainsMono text-sm md:text-base text-center md:text-left fade-in delay-400">
                             I&apos;m{" "}
-                            <span className="text-purple-700">Frazix</span>, a
-                            <span className="dev"> Full Stack Developer</span>{" "}
+                            <span className="text-purple-500 shadow-purple-500 [text-shadow:_0_0_17px_var(--tw-shadow-color)]">
+                                Irfan
+                            </span>
+                            , a
+                            <span className="text-blue-300 shadow-blue-300 [text-shadow:_0_0_17px_var(--tw-shadow-color)]">
+                                {" "}
+                                Full Stack Developer
+                            </span>{" "}
                             from
-                            <span className="text-green-700"> Bangladesh</span>.
-                            I build
-                            <span className="web">
+                            <span className="text-green-700 shadow-green-700 [text-shadow:_0_0_17px_var(--tw-shadow-color)]">
+                                {" "}
+                                Bangladesh
+                            </span>
+                            . I build
+                            <span className="text-orange-500 shadow-orange-500 [text-shadow:_0_0_17px_var(--tw-shadow-color)]">
                                 {" "}
                                 interactive websites
                             </span>{" "}
                             and have a passion for turning ideas into{" "}
-                            <span className="prodeuct">
+                            <span className="text-blue-500 shadow-blue-500 [text-shadow:_0_0_17px_var(--tw-shadow-color)]">
                                 {" "}
                                 beautiful products
                             </span>
@@ -55,7 +64,10 @@ export default function Home() {
                     <GradientCards />
                 </div>
             </section>
-            <section className="flex flex-col items-center justify-center h-screen">
+            <section
+                id="about"
+                className="flex flex-col items-center justify-center h-screen bg-background"
+            >
                 <h1>Hello</h1>
             </section>
         </>
