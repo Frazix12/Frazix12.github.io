@@ -1,6 +1,6 @@
 import GradientCards from "@/components/gradient-cards";
 import { Navbar } from "@/components/navbar";
-
+import ScrollableProjectList from "@/components/ScrollableProjectList";
 export default function Home() {
     return (
         <>
@@ -65,10 +65,10 @@ export default function Home() {
                 </div>
             </section>
             <section
-                id="about"
-                className="flex flex-col items-center justify-center h-screen bg-background"
+                id="projects"
+                className="flex flex-col items-center justify-center min-h-screen bg-background"
             >
-                <h1>Hello</h1>
+                <ScrollableProjectList />
             </section>
         </>
     );

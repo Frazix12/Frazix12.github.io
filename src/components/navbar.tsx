@@ -58,13 +58,6 @@ export function Navbar() {
                         <Button
                             variant="ghost"
                             className="px-3"
-                            onClick={() => scrollToSection("about")}
-                        >
-                            About
-                        </Button>
-                        <Button
-                            variant="ghost"
-                            className="px-3"
                             onClick={() => scrollToSection("projects")}
                         >
                             Projects
@@ -108,13 +101,6 @@ export function Navbar() {
                         onClick={() => scrollToSection("home")}
                     >
                         Home
-                    </Button>
-                    <Button
-                        variant="ghost"
-                        className="w-full justify-start"
-                        onClick={() => scrollToSection("about")}
-                    >
-                        About
                     </Button>
                     <Button
                         variant="ghost"

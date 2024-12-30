@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function GradientCards() {
     return (
@@ -12,27 +13,24 @@ export default function GradientCards() {
                     className="group"
                 >
                     <div className="relative w-[260px] h-[260px] group perspective">
-                        <div
-                            className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
-                            style={{
-                                backgroundImage: "url('/instagram.png')",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                                filter: "blur(50px)",
-                                opacity: 0.4,
-                            }}
-                        />
+                        <div className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]">
+                            <Image
+                                src="/instagram.png"
+                                alt="Instagram"
+                                layout="fill"
+                                objectFit="cover"
+                                className="blur-[50px] opacity-40"
+                            />
+                        </div>
                         <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
-                                <div
-                                    className="relative h-32 rounded-[25px] m-3 overflow-hidden"
-                                    style={{
-                                        backgroundImage:
-                                            "url('/instagram.png')",
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                    }}
-                                >
+                                <div className="relative h-32 rounded-[25px] m-3 overflow-hidden">
+                                    <Image
+                                        src="/instagram.png"
+                                        alt="Instagram"
+                                        layout="fill"
+                                        objectFit="cover"
+                                    />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -68,27 +66,24 @@ export default function GradientCards() {
                     className="group"
                 >
                     <div className="relative w-[260px] h-[260px] group perspective">
-                        <div
-                            className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
-                            style={{
-                                backgroundImage: "url('/messenger.png')",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                                filter: "blur(50px)",
-                                opacity: 0.4,
-                            }}
-                        />
+                        <div className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]">
+                            <Image
+                                src="/messenger.png"
+                                alt="Messenger"
+                                layout="fill"
+                                objectFit="cover"
+                                className="blur-[50px] opacity-40"
+                            />
+                        </div>
                         <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
-                                <div
-                                    className="relative h-32 rounded-[25px] m-3 overflow-hidden"
-                                    style={{
-                                        backgroundImage:
-                                            "url('/messenger.png')",
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                    }}
-                                >
+                                <div className="relative h-32 rounded-[25px] m-3 overflow-hidden">
+                                    <Image
+                                        src="/messenger.png"
+                                        alt="Messenger"
+                                        layout="fill"
+                                        objectFit="cover"
+                                    />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -124,26 +119,24 @@ export default function GradientCards() {
                     className="group"
                 >
                     <div className="relative w-[260px] h-[260px] group perspective">
-                        <div
-                            className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
-                            style={{
-                                backgroundImage: "url('/google.png')",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                                filter: "blur(50px)",
-                                opacity: 0.4,
-                            }}
-                        />
+                        <div className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]">
+                            <Image
+                                src="/google.png"
+                                alt="Google"
+                                layout="fill"
+                                objectFit="cover"
+                                className="blur-[50px] opacity-40"
+                            />
+                        </div>
                         <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
-                                <div
-                                    className="relative h-32 rounded-[25px] m-3 overflow-hidden"
-                                    style={{
-                                        backgroundImage: "url('/google.png')",
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                    }}
-                                >
+                                <div className="relative h-32 rounded-[25px] m-3 overflow-hidden">
+                                    <Image
+                                        src="/google.png"
+                                        alt="Google"
+                                        layout="fill"
+                                        objectFit="cover"
+                                    />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -193,26 +186,24 @@ export default function GradientCards() {
                     className="group"
                 >
                     <div className="relative w-[260px] h-[260px] group perspective">
-                        <div
-                            className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]"
-                            style={{
-                                backgroundImage: "url('/custom.png')",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                                filter: "blur(50px)",
-                                opacity: 0.4,
-                            }}
-                        />
+                        <div className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]">
+                            <Image
+                                src="/custom.png"
+                                alt="Custom"
+                                layout="fill"
+                                objectFit="cover"
+                                className="blur-[50px] opacity-40"
+                            />
+                        </div>
                         <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
-                                <div
-                                    className="relative h-32 rounded-[25px] m-3 overflow-hidden"
-                                    style={{
-                                        backgroundImage: "url('/custom.png')",
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                    }}
-                                >
+                                <div className="relative h-32 rounded-[25px] m-3 overflow-hidden">
+                                    <Image
+                                        src="/custom.png"
+                                        alt="Custom"
+                                        layout="fill"
+                                        objectFit="cover"
+                                    />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
