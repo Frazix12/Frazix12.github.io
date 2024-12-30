@@ -132,7 +132,10 @@ function ProjectCard({
             w-[280px] sm:w-[320px] md:w-[340px] lg:w-[360px]`}
         >
             <CardHeader>
-                <CardTitle className="text-xl truncate" title={project.title}>
+                <CardTitle
+                    className="text-xl text-secondary-foreground truncate"
+                    title={project.title}
+                >
                     {project.title}
                 </CardTitle>
             </CardHeader>
@@ -142,9 +145,11 @@ function ProjectCard({
                     alt={project.title}
                     width={300}
                     height={160}
-                    className="hidden md:block w-full h-40 object-cover rounded-md mb-4"
+                    className="hidden md:block w-full h-40 object-cover rounded-md mb-4 shadow-xl"
+                    quality={85}
+                    priority={Number(project.id) === 1}
                 />
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-secondary-foreground">
                     {project.description}
                 </p>
             </CardContent>

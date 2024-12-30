@@ -17,8 +17,9 @@ export default function GradientCards() {
                             <Image
                                 src="/instagram.png"
                                 alt="Instagram"
-                                layout="fill"
-                                objectFit="cover"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 260px"
+                                quality={60}
                                 className="blur-[50px] opacity-40"
                             />
                         </div>
@@ -28,8 +29,9 @@ export default function GradientCards() {
                                     <Image
                                         src="/instagram.png"
                                         alt="Instagram"
-                                        layout="fill"
-                                        objectFit="cover"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 260px"
+                                        quality={85}
                                     />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg
@@ -70,8 +72,9 @@ export default function GradientCards() {
                             <Image
                                 src="/messenger.png"
                                 alt="Messenger"
-                                layout="fill"
-                                objectFit="cover"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 260px"
+                                quality={60}
                                 className="blur-[50px] opacity-40"
                             />
                         </div>
@@ -81,8 +84,9 @@ export default function GradientCards() {
                                     <Image
                                         src="/messenger.png"
                                         alt="Messenger"
-                                        layout="fill"
-                                        objectFit="cover"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 260px"
+                                        quality={85}
                                     />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg
@@ -123,8 +127,9 @@ export default function GradientCards() {
                             <Image
                                 src="/google.png"
                                 alt="Google"
-                                layout="fill"
-                                objectFit="cover"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 260px"
+                                quality={60}
                                 className="blur-[50px] opacity-40"
                             />
                         </div>
@@ -134,8 +139,9 @@ export default function GradientCards() {
                                     <Image
                                         src="/google.png"
                                         alt="Google"
-                                        layout="fill"
-                                        objectFit="cover"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 260px"
+                                        quality={85}
                                     />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg
@@ -190,8 +196,9 @@ export default function GradientCards() {
                             <Image
                                 src="/custom.png"
                                 alt="Custom"
-                                layout="fill"
-                                objectFit="cover"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 260px"
+                                quality={60}
                                 className="blur-[50px] opacity-40"
                             />
                         </div>
@@ -201,8 +208,9 @@ export default function GradientCards() {
                                     <Image
                                         src="/custom.png"
                                         alt="Custom"
-                                        layout="fill"
-                                        objectFit="cover"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 260px"
+                                        quality={85}
                                     />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <svg

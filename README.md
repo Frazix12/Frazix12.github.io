@@ -12,6 +12,8 @@ A modern, sleek portfolio website built with Next.js and Tailwind CSS, featuring
 - 🚀 Fast page loads with Next.js
 - 🧩 Component-based architecture
 - 🎯 Smooth scroll navigation
+- 🖼️ Optimized image loading with Next.js Image component
+- 🔄 Dynamic project showcase with drag-and-scroll functionality
 
 ## 🛠️ Built With
 
@@ -25,20 +27,36 @@ A modern, sleek portfolio website built with Next.js and Tailwind CSS, featuring
 ## 🚀 Getting Started
 
 1. Clone the repository:
-   bash
-   git clone <https://github.com/yourusername/portfolio.git>
+
+    ```bash
+    git clone https://github.com/yourusername/portfolio.git
+    ```
 
 2. Install dependencies:
-   `npm install`
-   or
-   `bun install`
+
+    ```bash
+    npm install
+    ```
+
+    or
+
+    ```bash
+    bun install
+    ```
 
 3. Start the development server:
-   `npm run dev`
-   or
-   `bun run dev`
 
-4. Open your browser and **navigate** to <http://localhost:3000> to see the app.
+    ```bash
+    npm run dev
+    ```
+
+    or
+
+    ```bash
+    bun run dev
+    ```
+
+4. Open your browser and **navigate** to [http://localhost:3000](http://localhost:3000) to see the app.
 
 ## 📝 Project Structure
 
