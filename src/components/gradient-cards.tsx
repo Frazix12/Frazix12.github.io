@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function GradientCards() {
     return (
-        <div className="p-8 min-h-screen flex items-center">
+        <div className="p-8 flex items-center">
             <div className="w-full max-w-[580px] mx-auto grid md:grid-cols-2 gap-6 justify-items-center">
                 {/* Instagram Card */}
                 <Link
@@ -22,7 +22,7 @@ export default function GradientCards() {
                                 opacity: 0.4,
                             }}
                         />
-                        <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
+                        <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
                                 <div
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
@@ -49,7 +49,7 @@ export default function GradientCards() {
                                     </div>
                                 </div>
                                 <div className="p-6 pt-2">
-                                    <h3 className="text-xl font-extrabold text-white mb-2">
+                                    <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
                                         Instagram 📸
                                     </h3>
                                     <p className="text-gray-400 text-sm">
@@ -78,7 +78,7 @@ export default function GradientCards() {
                                 opacity: 0.4,
                             }}
                         />
-                        <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
+                        <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
                                 <div
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
@@ -105,7 +105,7 @@ export default function GradientCards() {
                                     </div>
                                 </div>
                                 <div className="p-6 pt-2">
-                                    <h3 className="text-xl font-extrabold text-white mb-2">
+                                    <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
                                         Messenger 💬
                                     </h3>
                                     <p className="text-gray-400 text-sm">
@@ -134,7 +134,7 @@ export default function GradientCards() {
                                 opacity: 0.4,
                             }}
                         />
-                        <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
+                        <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
                                 <div
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
@@ -174,7 +174,7 @@ export default function GradientCards() {
                                     </div>
                                 </div>
                                 <div className="p-6 pt-2">
-                                    <h3 className="text-xl font-extrabold text-white mb-2">
+                                    <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
                                         Google 🔍
                                     </h3>
                                     <p className="text-gray-400 text-sm">
@@ -203,7 +203,7 @@ export default function GradientCards() {
                                 opacity: 0.4,
                             }}
                         />
-                        <Card className="relative bg-[#18181B] border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
+                        <Card className="relative bg-card border-gray-800 rounded-[40px] overflow-hidden w-full h-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(-5deg)_translateZ(10px)_translateY(-10px)_scale(1.11)]">
                             <CardContent className="p-2">
                                 <div
                                     className="relative h-32 rounded-[25px] m-3 overflow-hidden"
@@ -245,7 +245,7 @@ export default function GradientCards() {
                                     </div>
                                 </div>
                                 <div className="p-6 pt-2">
-                                    <h3 className="text-xl font-extrabold text-white mb-2">
+                                    <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
                                         frazix.tk 🌸
                                     </h3>
                                     <p className="text-gray-400 text-sm">

@@ -7,11 +7,11 @@ export default function Home() {
             <Navbar />
             <section
                 id="home"
-                className="flex flex-col md:flex-row items-center justify-center min-h-screen text-primary px-4 md:px-0 pt-16 md:pt-20 bg-background"
+                className="flex flex-col md:flex-row items-center justify-center min-h-screen text-secondary-foreground px-4 md:px-0 pt-16 md:pt-20 bg-background"
             >
                 <div className="flex flex-col items-center justify-center w-full md:w-1/2 md:py-0">
                     <div className="justify-center items-center w-full md:w-3/4 space-y-4 md:space-y-6">
-                        <h1 className="text-4xl md:text-7xl font-bold pb-4 md:pb-7 jetbrainsMono text-center md:text-left fade-in">
+                        <h1 className="text-accent text-4xl md:text-7xl font-bold pb-4 md:pb-7 jetbrainsMono text-center md:text-left fade-in">
                             Irfan
                         </h1>
                         <h3 className="text-gray-400 jetbrainsMono text-sm md:text-base text-center md:text-left fade-in delay-200">

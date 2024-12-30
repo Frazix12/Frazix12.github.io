@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
+import { SparklesText } from "@/components/ui/sparkles-text";
 
 export function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -39,7 +40,11 @@ export function Navbar() {
             }`}
         >
             <div className="flex h-14 items-center px-4 md:px-8 justify-between">
-                <div className="text-xl font-bold">frazix.tk</div>
+                <SparklesText
+                    className="text-xl shadow-primary [text-shadow:_0_0_20px_var(--tw-shadow-color)]"
+                    sparklesCount={5}
+                    text="frazix.tk"
+                />
 
                 <div className="flex items-center gap-2">
                     <nav className="hidden md:flex gap-2">
