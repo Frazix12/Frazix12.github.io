@@ -52,8 +52,8 @@ export default function GradientCards() {
                                     <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
                                         Instagram 📸
                                     </h3>
-                                    <p className="text-gray-400 text-sm">
-                                        Lorem ipsum dolor sit amet.
+                                    <p className="text-gray-400 text-xs">
+                                        Explore my latest photos and stories.
                                     </p>
                                 </div>
                             </CardContent>
@@ -107,8 +107,9 @@ export default function GradientCards() {
                                     <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
                                         Messenger 💬
                                     </h3>
-                                    <p className="text-gray-400 text-sm">
-                                        Lorem ipsum dolor sit amet.
+                                    <p className="text-gray-400 text-xs">
+                                        Connect with me instantly for exciting
+                                        projects.
                                     </p>
                                 </div>
                             </CardContent>
@@ -174,10 +175,10 @@ export default function GradientCards() {
                                 </div>
                                 <div className="p-6 pt-2">
                                     <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
-                                        Google 🔍
+                                        Email 📧
                                     </h3>
-                                    <p className="text-gray-400 text-sm">
-                                        Lorem ipsum dolor sit amet.
+                                    <p className="text-gray-400 text-xs">
+                                        Reach out to me via email for inquiries.
                                     </p>
                                 </div>
                             </CardContent>
@@ -247,8 +248,9 @@ export default function GradientCards() {
                                     <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
                                         frazix.tk 🌸
                                     </h3>
-                                    <p className="text-gray-400 text-sm">
-                                        Lorem ipsum dolor sit amet.
+                                    <p className="text-gray-400 text-xs">
+                                        Visit my personal website to explore my
+                                        projects.
                                     </p>
                                 </div>
                             </CardContent>

@@ -43,7 +43,7 @@ export function Navbar() {
                 <SparklesText
                     className="text-xl shadow-primary [text-shadow:_0_0_20px_var(--tw-shadow-color)]"
                     sparklesCount={5}
-                    text="frazix.tk"
+                    text="~/irfan"
                 />
 
                 <div className="flex items-center gap-2">

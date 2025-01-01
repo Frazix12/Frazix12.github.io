@@ -1,6 +1,6 @@
 import GradientCards from "@/components/gradient-cards";
 import { Navbar } from "@/components/navbar";
-import ScrollableProjectList from "@/components/ScrollableProjectList";
+import ScrollableProjectList from "@/components/ProjectList";
 export default function Home() {
     return (
         <>
@@ -23,7 +23,7 @@ export default function Home() {
                                 Irfan
                             </span>
                             , a
-                            <span className="text-blue-300 shadow-blue-300 [text-shadow:_0_0_17px_var(--tw-shadow-color)]">
+                            <span className="text-pink-600 shadow-pink-600 [text-shadow:_0_0_17px_var(--tw-shadow-color)]">
                                 {" "}
                                 Full Stack Developer
                             </span>{" "}
@@ -46,9 +46,19 @@ export default function Home() {
                         </p>
                         <div className="space-y-2 md:space-y-3 fade-in delay-600">
                             <h3 className="skill jetbrainsMono text-sm md:text-base text-center md:text-left">
-                                🔥 Expert in <span className="html">HTML</span>,
-                                <span className="css">CSS</span> and{" "}
-                                <span className="js">Javascript</span>
+                                🔥 Expert in{" "}
+                                <span className="transition-all duration-300 hover:font-extrabold hover:text-orange-500 hover:shadow-orange-500 hover:[text-shadow:_0_0_17px_var(--tw-shadow-color)]">
+                                    HTML
+                                </span>
+                                ,
+                                <span className=" transition-all duration-300 hover:font-extrabold hover:text-blue-500 hover:shadow-blue-500 hover:[text-shadow:_0_0_17px_var(--tw-shadow-color)]">
+                                    {" "}
+                                    CSS
+                                </span>{" "}
+                                and{" "}
+                                <span className="transition-all duration-300 hover:font-extrabold hover:text-yellow-500 hover:shadow-yellow-500 hover:[text-shadow:_0_0_17px_var(--tw-shadow-color)]">
+                                    Javascript
+                                </span>
                             </h3>
                             <h3 className="skill jetbrainsMono text-sm md:text-base text-center md:text-left">
                                 🚀 Mediocre in ReactJS And NextJS
