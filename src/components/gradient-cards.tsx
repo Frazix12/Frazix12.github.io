@@ -188,15 +188,15 @@ export default function GradientCards() {
 
                 {/* Custom Card */}
                 <Link
-                    href="https://frazix.vercel.app/"
+                    href="https://www.youtube.com/@CWfrazix"
                     target="_blank"
                     className="group"
                 >
                     <div className="relative w-[260px] h-[260px] group perspective">
                         <div className="absolute inset-0 rounded-[40px] transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotate(3deg)_translateZ(10px)_scale(1.3)]">
                             <Image
-                                src="/custom.png"
-                                alt="Custom"
+                                src="/youtube.png"
+                                alt="Youtube"
                                 fill
                                 sizes="(max-width: 768px) 100vw, 260px"
                                 quality={60}
@@ -207,8 +207,8 @@ export default function GradientCards() {
                             <CardContent className="p-2">
                                 <div className="relative h-32 rounded-[25px] m-3 overflow-hidden">
                                     <Image
-                                        src="/custom.png"
-                                        alt="Custom"
+                                        src="/youtube.png"
+                                        alt="Youtube"
                                         fill
                                         sizes="(max-width: 768px) 100vw, 260px"
                                         quality={85}
@@ -246,11 +246,11 @@ export default function GradientCards() {
                                 </div>
                                 <div className="p-6 pt-2">
                                     <h3 className="text-xl font-extrabold text-secondary-foreground mb-2">
-                                        frazix.tk 🌸
+                                        Youtube 📺
                                     </h3>
                                     <p className="text-gray-400 text-xs">
-                                        Visit my personal website to explore my
-                                        projects.
+                                        Visit my Youtube channel to watch my
+                                        videos.
                                     </p>
                                 </div>
                             </CardContent>
