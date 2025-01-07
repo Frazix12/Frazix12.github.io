@@ -33,7 +33,7 @@ export const projects: Project[] = [
         description: "A mesh blur effect with tilt.js",
         image: "/project/3.png",
         githubLink: "https://github.com/Frazix12/Mesh-Blur-With-Tilt.js",
-        demoLink: "https://mesh-blur-with-tilt.vercel.app/",
+        demoLink: "https://frazix.is-a.dev/Mesh-Blur-With-Tilt.js/",
     },
     {
         id: "4",
