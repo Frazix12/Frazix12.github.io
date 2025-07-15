@@ -17,12 +17,15 @@ A modern, sleek portfolio website built with Next.js and Tailwind CSS, featuring
 
 ## 🛠️ Built With
 
-- [Next.js 14](https://nextjs.org/) - React Framework
+- [Next.js 15](https://nextjs.org/) - React Framework
+- [React 19](https://react.dev/) - UI Library
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [Shadcn/ui](https://ui.shadcn.com/) - UI Components
 - [Next Themes](https://github.com/pacocoursey/next-themes) - Theme Management
 - [Lucide Icons](https://lucide.dev/) - Beautiful Icons
 - [Vercel](https://vercel.com) - Deployment
+
+**Note:** This project is kept up-to-date with the latest features and versions of Next.js.
 
 ## 🚀 Getting Started
 
